@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 40px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5em;
+    color: #2c3e50;
+}
+
+.dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.chef-container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    width: 320px;
+    padding: 25px 20px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.chef-container:hover {
+    transform: translateY(-5px);
+}
+
+.chef-container h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #34495e;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 8px;
+}
+
+.chef-info p {
+    margin: 10px 0;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.error {
+    color: #d63031;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 1rem;
+}

@@ -1,0 +1,57 @@
+/*
+  Pragmatic JavaScript
+  Chapter 4
+  Programming Assignment
+
+  Author:
+  Date:
+  Filename:
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f3;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #007acc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005fa3;
+}
+
+#movie-info h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#movie-info p {
+    margin: 5px 0;
+}
+
+#error-message {
+    font-weight: bold;
+    margin-top: 10px;
+}
